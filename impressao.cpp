@@ -42,10 +42,10 @@ int main()
 	std::cout << "Digite a idade: "; std::cin >> idade;
 	
 	std::cout << "Digite o sexo [F]eminino [M]asculino "; std::cin >> sexo;
-	if (sexo == 'f' || 'F')
+	if (sexo == 'f' || sexo == 'F')
 		ssexo = "FEMININO";
 	else
-		if (sexo == 'm' || 'M')
+		if (sexo == 'm' || sexo == 'M')
 		ssexo = "MASCULINO";
 	
 	std::cout << "Digite a formacao [1]Medio [2]Superior : "; std::cin >> formacao;
